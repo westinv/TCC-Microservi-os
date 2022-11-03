@@ -22,13 +22,6 @@ export class CreateUserService {
         const data = await axios(`http://localhost:3333/user`)
         const result = data.data
 
-        for(let i = 0; i< result.length; i++){
-            ID = result[i].ID
-            NOME = result[i].nome
-            CPF = result[i].cpf
-            SENHA = result[i].senha
-        }
-
         const saveAll = result.map(async (varCerta) =>{
             ID = varCerta.id
             NOME = varCerta.nome
