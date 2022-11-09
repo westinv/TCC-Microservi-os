@@ -8,7 +8,7 @@ app.use(express.json())
 
 app.use(routes)
 
-app.listen(3334, () => console.log("server on"))
+app.listen(3330, () => console.log("server on"))
 
 
 

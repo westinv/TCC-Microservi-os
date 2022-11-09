@@ -15,4 +15,4 @@ app.get('/', (request, response) => {
 
 
 
-app.listen(3334, () => console.log("server on"))// mudar pois bate com a auth 3335 para o gatway
+app.listen(3339, () => console.log("server on"))// mudar pois bate com a auth 3335 para o gatway

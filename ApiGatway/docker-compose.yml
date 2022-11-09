@@ -6,7 +6,7 @@ services:
     container_name: Api_Gatway
     restart: always
     ports:
-      - 3334:3334
+      - 3339:3339
     volumes:
       - .:/usr/app
 volumes:

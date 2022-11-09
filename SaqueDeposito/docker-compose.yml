@@ -7,11 +7,11 @@ services:
     container_name: database_PagSimples_saque_deposito
     restart: always
     ports:
-      - 5433:5432
+      - 5430:5430
     environment:
-      - POSTGRES_USER=docker
-      - POSTGRES_PASSWORD=pagsimples
-      - POSTGRES_DB=saque_deposito
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123
+      - POSTGRES_DB=pg_saque_deposito
     volumes:
       - pgdata:/data/postgres
 
@@ -20,7 +20,7 @@ services:
     container_name: saque_deposito
     restart: always
     ports:
-      - 3336:3336
+      - 3331:3331
     volumes:
       - .:/usr/app
 

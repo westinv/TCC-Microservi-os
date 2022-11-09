@@ -6,7 +6,7 @@ services:
     container_name: auth
     restart: always
     ports:
-      - 3334:3334
+      - 3330:3330
     volumes:
       - .:/usr/app
 volumes:

@@ -10,4 +10,4 @@ app.use(express.json())
 
 app.use(routes)
 
-app.listen(3336, () => console.log("server on"))
+app.listen(3331, () => console.log("server on"))

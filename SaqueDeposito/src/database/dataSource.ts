@@ -4,7 +4,7 @@ import { DataSource } from "typeorm"
 const AppDataSource = new DataSource({
     type: "postgres",
     host: "localhost",
-    port: 5432,
+    port: 5430,
     username: "postgres",
     password: "123",
     database: "pg_saque_deposito",
